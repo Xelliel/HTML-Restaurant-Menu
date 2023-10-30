@@ -49,13 +49,13 @@ nav a {
 }
 
 nav a:hover {
-    color: darkred;
+    color: rgb(42, 5, 5);
 }
 
 #banner {
     width: 100%;
     height: auto;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 }
 
 #banner img {
@@ -84,3 +84,14 @@ th {
     border: 1px solid black;
     padding: 5px;
 }
+
+.boatPhoto {
+    height: 100;
+   padding: 10px 10px 10px 10px; 
+    margin: 0 auto;
+   text-align: center;}
+
+   .flex-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;}
